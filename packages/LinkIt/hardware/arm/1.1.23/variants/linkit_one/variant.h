@@ -16,7 +16,7 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
   Modified 20 Aug 2014 by MediaTek Inc.
-  
+
 */
 
 #ifndef _VARIANT_ARDUINO_DUE_X_
@@ -43,7 +43,7 @@
 #include "UARTClass.h"
 #endif
 
-
+static const uint8_t LED_BUILTIN = 13;
 static const uint8_t A0  = 14;/*analog input pin A0*/
 static const uint8_t A1  = 15;/*analog input pin A1*/
 static const uint8_t A2  = 16;/*analog input pin A2*/
@@ -101,7 +101,7 @@ static const uint8_t SCK  = PIN_SPI_SCK;
 /*----------------------------------------------------------------------------
  *        Arduino objects - C++ only
  *----------------------------------------------------------------------------*/
- 
- 
+
+
 #endif /* _VARIANT_ARDUINO_DUE_X_ */
 
